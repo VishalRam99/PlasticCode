@@ -1,3 +1,10 @@
+'''
+Just sit back and let this run. I tried only giving 500 as input, but ig we can push more than 1000 values based on the CPU.
+You try and see. Check and say if I should correct something.
+'''
+#Also, RUN and Check MySQL. Also check the Folder "Vishal" ;-) I finished the barcode part too.
+#Give the rows as 1000. I added time delay for CPU's sake. Will take around 2 minutes to complete.
+
 import mysql.connector as MySQL 
 import time
 import datetime
@@ -172,3 +179,4 @@ if __name__ == "__main__":
     MyCur.close()
     MyDB.close()
 
+    #CheckOpen() I did this for fun, don't remove the comments. Don't even think about it.
