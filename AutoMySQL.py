@@ -113,7 +113,7 @@ def BarCode(Rowlist):
                 os.remove(file_path)  
             elif os.path.isdir(file_path):  
                 os.rmdir(file_path)  
-        except Exception as e:  
+        except Exception:  
             pass
 
     TxtFile = open("C:\\Users\\wesle\\OneDrive\\Documents\\Vishal\\BarCode\\UniqueCodes.txt", 'w')
